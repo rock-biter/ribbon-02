@@ -51,7 +51,7 @@ float snoise(vec2 v){
 
 const scene = new Scene()
 
-const geometry = new BoxGeometry(14, 6, 0.1, 400, 240, 10)
+const geometry = new BoxGeometry(14, 3, 0.1, 300, 180, 10)
 const material = new MeshStandardMaterial({ color: 0x452789 })
 
 const uniforms = {
